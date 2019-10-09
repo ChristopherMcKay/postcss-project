@@ -7,7 +7,7 @@ import './build/App.css';
 class App extends Component {
 
   render() {
-    
+
     return (
       <div className={styles.App}>
 
@@ -21,15 +21,13 @@ class App extends Component {
               The CSS is made with PostCSS Modules
             </p>
 
-            <span>Random ass words. Let's style them</span>
-
             <a
               className={styles.AppLink}
-              href="https://reactjs.org"
+              href="https://github.com/ChristopherMcKay/postcss-project"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React
+              Github Repo
             </a>
 
         </header>
