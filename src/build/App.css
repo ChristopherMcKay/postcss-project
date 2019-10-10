@@ -1,12 +1,12 @@
-._App_1awcm_1 {
+._Users_christophermckay_Documents_test_stuff_src_App__App {
   text-align: center;
 }
 
-._AppLogo_1awcm_5 {
+.AppLogo {
   height: 40vmin;
 }
 
-._AppHeader_1awcm_9 {
+._Users_christophermckay_Documents_test_stuff_src_App__AppHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,6 +17,11 @@
   color: white;
 }
 
-._AppLink_1awcm_20 {
+.AppLink {
   color: #09d3ac;
+}
+
+:export {
+  App: _Users_christophermckay_Documents_test_stuff_src_App__App;
+  AppHeader: _Users_christophermckay_Documents_test_stuff_src_App__AppHeader;
 }
